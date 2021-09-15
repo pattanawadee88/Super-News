@@ -51,6 +51,7 @@ nav {
 .news-container{
     padding: 0.9em;
     width: 100%;
+    border-bottom: 2px solid black;
 
 }
 .news-img{
@@ -111,6 +112,7 @@ nav {
         display: grid;
         grid-template-columns: auto 20%;
         grid-template-rows: auto;
+        gap: 10px;
     }
     .weather-container{
         background-color: black;
