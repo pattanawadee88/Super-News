@@ -50,6 +50,7 @@ nav {
 }
 .news-container{
     padding: 0.9em;
+    width: 100%;
 
 }
 .news-img{
@@ -67,6 +68,7 @@ nav {
 .title,
 .description{
     margin-bottom: 1em;
+    font-size: 1rem;
 }
 .title{
     // margin-top: 1em;
@@ -77,17 +79,16 @@ nav {
     #root{
         margin: 0 5em;
     }
+    .news-container{
+        width: 50%;
+    }
     ul{
         justify-content: center;
     }
-    .flex{
-        // background-color: black;
-        display: flex; 
-        flex-direction: column;
-    }
-    .news-container:first-child{
+    .flex>.news-container:first-child{
         display: flex; 
         flex-direction: row;
+        width: 100%;
         .news-img{
             width: 100%;
         }
@@ -100,7 +101,12 @@ nav {
         }
 
     }
-
+    .flex{
+        // background-color: black;
+        display: flex; 
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
     .grid{
         display: grid;
         grid-template-columns: auto 20%;
