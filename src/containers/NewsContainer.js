@@ -26,7 +26,7 @@ class NewsContainer extends React.Component{
         })
       }
     render(){
-        console.log(this.state.news)
+        // console.log(this.state.news)
         if(this.state.loading){
             return (
                 <div>
