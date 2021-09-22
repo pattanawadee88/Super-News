@@ -14,9 +14,19 @@ body{
 }
 header{
     padding: 0.3em;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    justify-items: center;
+    // justify-content: space-between;
     align-items: center;
+    #date,time{
+        font-weight: bolder;
+    }
+    time{
+        font-size: 0.8em;
+    }
+    #date{
+        font-size: 0.5em;
+    }
 }
 
 a{
@@ -79,6 +89,11 @@ nav {
 @media screen and (min-width: 900px) {
     #root{
         margin: 0 5em;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
     }
     .news-container{
         width: 50%;
