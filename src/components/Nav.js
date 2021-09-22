@@ -5,7 +5,7 @@ function Nav(){
         <nav role="navigation">
             <ul>
                 <li><a href="#header">Home</a></li>
-                {/* <li><a href="#">Covid-19</a></li> */}
+                <li><a href="#">World</a></li>
             </ul>
         </nav>
     )

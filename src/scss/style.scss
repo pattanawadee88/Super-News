@@ -36,8 +36,9 @@ a:hover{
     border-bottom: 2px solid black;
 }
 nav {
-    // display: flex;
-    // justify-content: space-between;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.7em;
+    font-weight: bolder;
     padding: 0.2em;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -101,8 +102,9 @@ nav {
     ul{
         justify-content: center;
     }
-    .flex>.news-container:first-child{
+    .news-container:first-child{
         display: flex; 
+        // align-items: flex-end;
         flex-direction: row;
         width: 100%;
         .news-img{
@@ -113,7 +115,8 @@ nav {
         }
         .source{
             font-size: x-small;
-            text-align: start;
+            margin-left: 1em;
+          
         }
 
     }
@@ -125,11 +128,11 @@ nav {
     }
     .grid{
         display: grid;
-        grid-template-columns: auto 20%;
+        grid-template-columns: auto ;
         grid-template-rows: auto;
         gap: 10px;
     }
     .weather-container{
-        background-color: black;
+        // background-color: black;
     }
 }

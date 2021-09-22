@@ -46,16 +46,10 @@ class NewsContainer extends React.Component{
             />
         )
         return(
-            // <div>
-            //   {news}
-            // </div>
             <div className="grid">
-            <div className="flex">
+              <div className="flex">
               {news}
-            </div>
-            <div className="flex weather-container">
-              {/* <Weather/> */}
-            </div>
+              </div>
 
           </div>
 
